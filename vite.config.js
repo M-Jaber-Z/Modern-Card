@@ -5,8 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: 'Modern-Card',
+  base:'/Modern-Card/',
   server: {
     port: 3000
   }
 })
+
